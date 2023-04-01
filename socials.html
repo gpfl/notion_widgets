@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-
-<!-- Auther: Shorouk Abdelaziz  https://shorouk.dev -->
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Socials</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       display: grid;
       font-family: Helvetica, sans-serif;
       place-items: center;
     }
-
     .wrapper {
-      padding-top: 10px;
+      padding-top: 0px;
       display: inline-flex;
 
     }
-
     .icon {
       /* Change the icon size here */
       vertical-align: middle;
@@ -41,38 +33,29 @@
       font-size: .9em;
       /* Change the icons colours here*/
     }
-
     .email:hover {
       color: #DB4437;
     }
-
     .linkedin:hover {
       color: #0e76a8;
     }
-
     .social {
       position: relative;
       margin: 10px;
       cursor: pointer;
     }
   </style>
-
 </head>
-
 <body>
-
   <body>
-
     <div class="wrapper">
-
       <!-- Start email Icon -->
       <div id="email" onclick="navigate(this.id)" class="social">
         <span class="icon email"><i class="fa-sharp fa-solid fa-envelope"></i>
-		<span class="text"> gustavopereiraflores@gmail.com</span>
+		<span class="text"> gustavopereiraflores</span>
         </span>
       </div>
       <!-- End email Icon -->
-
       <!-- Start linkedin Icon -->
       <div id="linkedin" onclick="navigate(this.id)" class="social">
         <span class="icon linkedin"><i class="fab fa-linkedin"></i>
@@ -80,20 +63,13 @@
         </span>
       </div>
       <!-- End linkedin Icon -->
-      
       <!-- Start phone Icon -->
       <div id="phone" class="social">
         <span class="icon"><i class="fa-solid fa-phone"></i></span>
         <span class="text"> +5551981500826</span>
       </div>
       <!-- End telegram Icon -->
-
-
     </div>
-
-
-
-
     <script>
       function navigate(id) {
 
@@ -106,11 +82,6 @@
           window.open("https://www.linkedin.com/in/gpfl", '_blank').focus(); //Add the url to your pinterest account
         }
       }
-
     </script>
-
-
-
   </body>
-
 </html>
